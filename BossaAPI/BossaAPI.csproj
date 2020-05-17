@@ -108,6 +108,8 @@
     <Compile Include="src\Networking\Fixml\Orders\OrderStatusRequestMsg.cs" />
     <Compile Include="src\Networking\Fixml\Orders\OrderType.cs" />
     <Compile Include="src\Networking\Fixml\Orders\OrdTimeInForce.cs" />
+    <Compile Include="src\Networking\Fixml\SecurityList\SecurityListRequestMsg.cs" />
+    <Compile Include="src\Networking\Fixml\SecurityList\SecurityListResponseMsg.cs" />
     <Compile Include="src\Networking\Fixml\Session\TradingSessionPhase.cs" />
     <Compile Include="src\Networking\Fixml\Session\TradingSessionStatus.cs" />
     <Compile Include="src\Networking\Fixml\Session\TradingSessionStatusMsg.cs" />

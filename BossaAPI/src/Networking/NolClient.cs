@@ -345,6 +345,41 @@ namespace pjank.BossaAPI
 		#endregion
 
 
+		#region Security list request
+
+		public void SecurityListStart()
+		{
+			Debug.WriteLine("\\Security List...");
+			StartLogin:
+			using (Socket socket = GetSyncSocket())
+			{
+				var request = new SecurityListRequestMsg("COMARCH") {Username = "BOS", Password = "BOS"};
+				request.Send(socket);
+				try
+				{
+					// UserResponseMsg response = new UserResponseMsg(socket);
+					// if ((response.Status == UserStatus.Other) && (response.StatusText == "User is already logged"))
+					// 	MyUtil.PrintWarning("NOL says: We're already logged in !?");
+					// else
+					// if (response.Status != UserStatus.LoggedIn)
+					// 	throw new FixmlErrorMsgException(response);
+				}
+				catch (BizMessageRejectException e)
+				{
+					// całe to przechwytywanie wyjątków i powtórki możnaby pominąć, gdyby NOL nie blokował
+					// numerku ReqID, jeśli jego poprzedni klient nie zrealizował prawidłowo logowania/wylogowania
+					if (e.Msg.RejectText == "Incorrect UserReqID")
+						if (request.Id < 100) goto StartLogin;  // każdy kolejny UserRequestMsg z większym "Id"
+						else throw new FixmlException("UserReqID limit reached!");
+					else throw;
+				}
+			}
+			Debug.WriteLine("Security List OK\n");
+		}
+
+		#endregion
+
+
 		#region MarketData subscription
 
 		private uint? mdReqId = null;
