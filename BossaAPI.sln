@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BossaAPI", "BossaAPI\BossaAPI.csproj", "{4F4C0B7B-A55B-4189-8127-AA79A32AAE5B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApp", "Examples\DemoApp\DemoApp.csproj", "{92E9ADDB-0517-4842-B8D8-A94F230C87B4}"
@@ -8,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoConsole", "Examples\DemoConsole\DemoConsole.csproj", "{349C99BE-6A66-4AEC-B179-2BCCCA82D918}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketMonitor", "Examples\MarketMonitor\MarketMonitor.csproj", "{02FD6766-E9F6-468C-8AAE-71D09BF110F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BossaAPI_Core", "BossaAPI_Core\BossaAPI_Core.csproj", "{5E1D9CA5-5320-4F2E-8A99-1038E6802083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoConsole_Core", "DemoConsole_Core\DemoConsole_Core.csproj", "{945933C8-A0C0-47E3-BA13-764CD83B650F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,8 +65,35 @@ Global
 		{02FD6766-E9F6-468C-8AAE-71D09BF110F3}.Release|Mixed Platforms.Build.0 = Release|x86
 		{02FD6766-E9F6-468C-8AAE-71D09BF110F3}.Release|x86.ActiveCfg = Release|x86
 		{02FD6766-E9F6-468C-8AAE-71D09BF110F3}.Release|x86.Build.0 = Release|x86
+		{5E1D9CA5-5320-4F2E-8A99-1038E6802083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1D9CA5-5320-4F2E-8A99-1038E6802083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1D9CA5-5320-4F2E-8A99-1038E6802083}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5E1D9CA5-5320-4F2E-8A99-1038E6802083}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5E1D9CA5-5320-4F2E-8A99-1038E6802083}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5E1D9CA5-5320-4F2E-8A99-1038E6802083}.Debug|x86.Build.0 = Debug|Any CPU
+		{5E1D9CA5-5320-4F2E-8A99-1038E6802083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1D9CA5-5320-4F2E-8A99-1038E6802083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E1D9CA5-5320-4F2E-8A99-1038E6802083}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5E1D9CA5-5320-4F2E-8A99-1038E6802083}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5E1D9CA5-5320-4F2E-8A99-1038E6802083}.Release|x86.ActiveCfg = Release|Any CPU
+		{5E1D9CA5-5320-4F2E-8A99-1038E6802083}.Release|x86.Build.0 = Release|Any CPU
+		{945933C8-A0C0-47E3-BA13-764CD83B650F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945933C8-A0C0-47E3-BA13-764CD83B650F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945933C8-A0C0-47E3-BA13-764CD83B650F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{945933C8-A0C0-47E3-BA13-764CD83B650F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{945933C8-A0C0-47E3-BA13-764CD83B650F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{945933C8-A0C0-47E3-BA13-764CD83B650F}.Debug|x86.Build.0 = Debug|Any CPU
+		{945933C8-A0C0-47E3-BA13-764CD83B650F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945933C8-A0C0-47E3-BA13-764CD83B650F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945933C8-A0C0-47E3-BA13-764CD83B650F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{945933C8-A0C0-47E3-BA13-764CD83B650F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{945933C8-A0C0-47E3-BA13-764CD83B650F}.Release|x86.ActiveCfg = Release|Any CPU
+		{945933C8-A0C0-47E3-BA13-764CD83B650F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {407F6D55-8A98-4050-9229-B75B127D960C}
 	EndGlobalSection
 EndGlobal
