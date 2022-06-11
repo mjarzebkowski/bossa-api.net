@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections;
 
 namespace BossaAPI_Core
 {
-	public class BosTrades : IEnumerable<BosTrade>
+    public class BosTrades : IEnumerable<BosTrade>
 	{
 		/// <summary>
 		/// Liczba dostępnych w historii transakcji dla tego instrumentu.

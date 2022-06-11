@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Diagnostics;
-using System.IO;
 using System.Linq;
 using pjank.BossaAPI.DemoConsole.Modules;
 using pjank.BossaAPI.DemoConsole.Utils;
 
 namespace pjank.BossaAPI.DemoConsole
 {
-	class DemoConsole
+    class DemoConsole
 	{
 		/// <summary>
 		/// Główna funkcja programu.

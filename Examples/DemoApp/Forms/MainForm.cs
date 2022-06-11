@@ -1,18 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using pjank.BossaAPI;
 using System.Diagnostics;
 using pjank.BossaAPI.Fixml;
 
 namespace pjank.BossaAPI.DemoApp
 {
-	public partial class MainForm : Form
+    public partial class MainForm : Form
 	{
 		TextBoxTraceListener myTraceListener;
 

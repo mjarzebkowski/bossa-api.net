@@ -1,24 +1,19 @@
 ﻿using BossaAPI_Core.BossaAPI_Core;
 using BossaAPI_Core.DTO;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BossaAPI_Core
 {
-	/// <summary>
-	/// Podstawowa klasa biblioteki oferująca łatwy dostęp do większości funkcji API, a dokładniej:
-	/// wewnętrzna implementacja tego, co zwykle wywołujemy za pośrednictwem statycznej klasy "Bossa".
-	/// 
-	/// Upubliczniona raczej tylko dla tych, co mają uprzedzenia do klas statycznych i singletonów ;)
-	/// A na poważnie: jeśli nie wiesz o co chodzi - śmiało korzystaj z klasy "Bossa".
-	/// Jeśli jednak coś stoi na przeszkodzie (potrzebujesz np. zaimplementować testy jednostkowe
-	/// lub integracyjne) - możesz z powodzeniem zastąpić klasę "Bossa" własną instancją "BossaApi".
-	/// </summary>
-	public class BossaApi : IBossaApi
+    /// <summary>
+    /// Podstawowa klasa biblioteki oferująca łatwy dostęp do większości funkcji API, a dokładniej:
+    /// wewnętrzna implementacja tego, co zwykle wywołujemy za pośrednictwem statycznej klasy "Bossa".
+    /// 
+    /// Upubliczniona raczej tylko dla tych, co mają uprzedzenia do klas statycznych i singletonów ;)
+    /// A na poważnie: jeśli nie wiesz o co chodzi - śmiało korzystaj z klasy "Bossa".
+    /// Jeśli jednak coś stoi na przeszkodzie (potrzebujesz np. zaimplementować testy jednostkowe
+    /// lub integracyjne) - możesz z powodzeniem zastąpić klasę "Bossa" własną instancją "BossaApi".
+    /// </summary>
+    public class BossaApi : IBossaApi
 	{
 		internal IBosClient connection;
 

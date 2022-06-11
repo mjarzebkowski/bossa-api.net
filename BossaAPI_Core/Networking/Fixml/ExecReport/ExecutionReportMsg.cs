@@ -1,11 +1,9 @@
-﻿using System;
-using System.Net.Sockets;
+﻿using System.Net.Sockets;
 using System.Text;
-using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public class ExecutionReportMsg : FixmlMsg
+    public class ExecutionReportMsg : FixmlMsg
 	{
 		public const string MsgName = "ExecRpt";
 

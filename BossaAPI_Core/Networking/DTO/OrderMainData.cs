@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace BossaAPI_Core.DTO
+﻿namespace BossaAPI_Core.DTO
 {
-	/// <summary>
-	/// Obiekt transportowy do przekazywania (między modułami biblioteki)
-	/// podstawowych informacji nt. konkretnego zlecenia złożonego przez klienta.
-	/// Używany jako "podobiekt" w OrderData (tam precyzujemy, o które zlecenie chodzi).
-	/// </summary>
-	public class OrderMainData
+    /// <summary>
+    /// Obiekt transportowy do przekazywania (między modułami biblioteki)
+    /// podstawowych informacji nt. konkretnego zlecenia złożonego przez klienta.
+    /// Używany jako "podobiekt" w OrderData (tam precyzujemy, o które zlecenie chodzi).
+    /// </summary>
+    public class OrderMainData
 	{
 		public DateTime CreateTime;
 		public Instrument Instrument;

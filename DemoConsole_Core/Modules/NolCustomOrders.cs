@@ -1,12 +1,9 @@
-﻿using System;
-using System.Diagnostics;
-using System.Net.Sockets;
-using System.Threading;
+﻿using System.Diagnostics;
 using BossaAPI_Core.Fixml;
 
 namespace BossaAPI_Core.DemoConsole.Modules
 {
-	class NolCustomOrders : IDemoModule
+    class NolCustomOrders : IDemoModule
 	{
 		public char MenuKey { get { return '3'; } }
 		public string Description { get { return "NolClient usage, sending orders directly with Fixml classes"; } }

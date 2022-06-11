@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace pjank.BossaAPI
 {
-	/// <summary>
-	/// Raport na temat aktualnego stanu naszego zlecenia.
-	/// </summary>
-	public class BosOrderStatusReport
+    /// <summary>
+    /// Raport na temat aktualnego stanu naszego zlecenia.
+    /// </summary>
+    public class BosOrderStatusReport
 	{
 		/// <summary>
 		/// Czas ostatniej zmiany statusu.

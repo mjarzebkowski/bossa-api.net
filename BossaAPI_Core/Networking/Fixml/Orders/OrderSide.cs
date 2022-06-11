@@ -1,9 +1,8 @@
-﻿using System;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public enum OrderSide
+    public enum OrderSide
 	{
 		Buy = '1',
 		Sell = '2'

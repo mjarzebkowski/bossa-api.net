@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections;
 
 namespace BossaAPI_Core
 {
-	public class BosOffers : IEnumerable<BosOffer>
+    public class BosOffers : IEnumerable<BosOffer>
 	{
 		/// <summary>
 		/// Liczba widocznych w tabeli ofert kupna/sprzedaży danego instrumentu.

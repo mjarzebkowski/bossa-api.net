@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Xml;
 using System.Text;
 
 namespace pjank.BossaAPI.Fixml
 {
-	public class OrderCancelRequestMsg : FixmlMsg
+    public class OrderCancelRequestMsg : FixmlMsg
 	{
 		private static uint nextId = 0;
 

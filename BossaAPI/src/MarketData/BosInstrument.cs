@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace pjank.BossaAPI
 {
-	/// <summary>
-	/// Identyfikuje intrument (papier wartościowy), którego dotyczy jakaś oferta, zlecenie, transakcja.
-	/// </summary>
-	public class BosInstrument
+    /// <summary>
+    /// Identyfikuje intrument (papier wartościowy), którego dotyczy jakaś oferta, zlecenie, transakcja.
+    /// </summary>
+    public class BosInstrument
 	{
 		/// <summary>
 		/// Rodzaj instrumentu (akcje, kontrakty, indeks).

@@ -1,10 +1,8 @@
-﻿using System;
-using System.Xml;
-using System.Text;
+﻿using System.Text;
 
 namespace BossaAPI_Core.Fixml
 {
-	public class OrderStatusRequestMsg : FixmlMsg
+    public class OrderStatusRequestMsg : FixmlMsg
 	{
 		private static uint nextId = 0;
 

@@ -1,9 +1,8 @@
-﻿using System;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public enum MDUpdateAction
+    public enum MDUpdateAction
 	{
 		New = '0',
 		Change = '1',

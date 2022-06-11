@@ -1,21 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
 using System.Windows.Forms;
 using System.Drawing;
 
 namespace pjank.BossaAPI.DemoApp
 {
-	/// <summary>
-	/// Klasa bazowa dla obiektów TraceListenera wyświetlających komunikaty na kontrolce GUI.
-	/// Sama zajmuje się synchronizacją wątków
-	///  (tych, z których przychodzą komunikaty, z wątkiem danej kontrolki docelowej) 
-	/// oraz wewnętrznym kolejkowaniem tych komunikatów
-	///  (żeby nie obciążać niepotrzebnie interfejsu aplikacji, kiedy "dużo się dzieje").
-	/// </summary>
-	public abstract class GuiTraceListener : TraceListener
+    /// <summary>
+    /// Klasa bazowa dla obiektów TraceListenera wyświetlających komunikaty na kontrolce GUI.
+    /// Sama zajmuje się synchronizacją wątków
+    ///  (tych, z których przychodzą komunikaty, z wątkiem danej kontrolki docelowej) 
+    /// oraz wewnętrznym kolejkowaniem tych komunikatów
+    ///  (żeby nie obciążać niepotrzebnie interfejsu aplikacji, kiedy "dużo się dzieje").
+    /// </summary>
+    public abstract class GuiTraceListener : TraceListener
 	{
 		protected Control control;
 		private List<string> queue;

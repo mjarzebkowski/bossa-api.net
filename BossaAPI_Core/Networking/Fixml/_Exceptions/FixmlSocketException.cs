@@ -1,12 +1,11 @@
-﻿using System;
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 
 namespace BossaAPI_Core.Fixml
 {
-	/// <summary>
-	/// Błąd wynikający z przerwania kanału komunikacyjnego w trakcie przesyłania komunikatu.
-	/// </summary>
-	public class FixmlSocketException : FixmlException
+    /// <summary>
+    /// Błąd wynikający z przerwania kanału komunikacyjnego w trakcie przesyłania komunikatu.
+    /// </summary>
+    public class FixmlSocketException : FixmlException
 	{
 		public FixmlSocketException() : this("Connection terminated") { }
 		public FixmlSocketException(string message) : base(message) { }

@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace pjank.BossaAPI
 {
-	/// <summary>
-	/// Raport z wykonania pojedynczej transakcji dla naszego zlecenia
-	/// (może to być całe zlecenie albo jedna z wielu części wykonania danego zlecenia).
-	/// </summary>
-	public class BosOrderTradeReport
+    /// <summary>
+    /// Raport z wykonania pojedynczej transakcji dla naszego zlecenia
+    /// (może to być całe zlecenie albo jedna z wielu części wykonania danego zlecenia).
+    /// </summary>
+    public class BosOrderTradeReport
 	{
 		/// <summary>
 		/// Godzina realizacji danej transakcji.

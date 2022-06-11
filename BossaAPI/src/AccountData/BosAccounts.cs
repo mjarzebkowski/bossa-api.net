@@ -1,16 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Collections;
 
 namespace pjank.BossaAPI
 {
-	/// <summary>
-	/// Lista rachunków danego klienta.
-	/// </summary>
-	public class BosAccounts : IEnumerable<BosAccount>
+    /// <summary>
+    /// Lista rachunków danego klienta.
+    /// </summary>
+    public class BosAccounts : IEnumerable<BosAccount>
 	{
 		/// <summary>
 		/// Liczba dostępnych na tę chwilę rachunków.

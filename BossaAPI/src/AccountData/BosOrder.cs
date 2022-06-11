@@ -1,17 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using pjank.BossaAPI.DTO;
 
 namespace pjank.BossaAPI
 {
-	/// <summary>
-	/// Konkretne zlecenie złożone przez użytkownika rachunku.
-	/// Zarówno zlecenia wciąż aktywne, te wykonane, jak i odrzucone/anulowane
-	/// (z bieżącego dnia - bossaAPI nie udostępnia /na razie/ danych historycznych).
-	/// </summary>
-	public class BosOrder
+    /// <summary>
+    /// Konkretne zlecenie złożone przez użytkownika rachunku.
+    /// Zarówno zlecenia wciąż aktywne, te wykonane, jak i odrzucone/anulowane
+    /// (z bieżącego dnia - bossaAPI nie udostępnia /na razie/ danych historycznych).
+    /// </summary>
+    public class BosOrder
 	{
 		/// <summary>
 		/// Rachunek, na którym złożono to zlecenie.

@@ -1,9 +1,8 @@
-﻿using System;
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 
 namespace BossaAPI_Core
 {
-	public class NolClientException : Exception
+    public class NolClientException : Exception
 	{
 		public NolClientException() { }
 		public NolClientException(string message) : base(message) { }

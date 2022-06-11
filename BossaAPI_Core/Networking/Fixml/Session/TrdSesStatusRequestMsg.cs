@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace BossaAPI_Core.Fixml
+﻿namespace BossaAPI_Core.Fixml
 {
-	public class TrdSesStatusRequestMsg : FixmlMsg
+    public class TrdSesStatusRequestMsg : FixmlMsg
 	{
 
 		private static uint nextId = 0;

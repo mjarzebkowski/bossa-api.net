@@ -1,10 +1,9 @@
-﻿using System;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using BossaAPI_Core.Fixml;
 
 namespace BossaAPI_Core.DemoConsole.Modules
 {
-	class NolSubscriptions : IDemoModule
+    class NolSubscriptions : IDemoModule
 	{
 		public char MenuKey { get { return '2'; } }
 		public string Description { get { return "NolClient usage, MarketData and SessionStatus subscriptions"; } }

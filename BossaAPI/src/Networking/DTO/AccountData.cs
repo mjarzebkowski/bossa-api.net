@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace pjank.BossaAPI.DTO
+﻿namespace pjank.BossaAPI.DTO
 {
-	/// <summary>
-	/// Obiekt transportowy do przekazywania (między modułami biblioteki)
-	/// podstawowych danych nt. konkretnego rachunku klienta. 
-	/// </summary>
-	public class AccountData
+    /// <summary>
+    /// Obiekt transportowy do przekazywania (między modułami biblioteki)
+    /// podstawowych danych nt. konkretnego rachunku klienta. 
+    /// </summary>
+    public class AccountData
 	{
 		public string Number;
 		public Paper[] Papers;

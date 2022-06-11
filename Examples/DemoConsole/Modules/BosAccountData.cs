@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Diagnostics;
-using System.Threading;
 
 namespace pjank.BossaAPI.DemoConsole.Modules
 {
-	class BosAccountData : IDemoModule
+    class BosAccountData : IDemoModule
 	{
 		public char MenuKey { get { return '5'; } }
 		public string Description { get { return "BossaAPI basics, account info"; } }

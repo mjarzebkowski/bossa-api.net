@@ -1,20 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BossaAPI_Core
+﻿namespace BossaAPI_Core
 {
-	using System;
+    using System;
 
-	namespace BossaAPI_Core
-	{
-		/// <summary>
-		/// Interfejs pozwalający na lepszą separację podstawowych elementów biblioteki i ułatwiający np. pisanie testów.
-		/// Domyślna implementacja w klasie "BossaApi" - używanej też wewnętrznie przez główną klasę biblioteki: "Bossa".
-		/// </summary>
-		public interface IBossaApi
+    namespace BossaAPI_Core
+    {
+        /// <summary>
+        /// Interfejs pozwalający na lepszą separację podstawowych elementów biblioteki i ułatwiający np. pisanie testów.
+        /// Domyślna implementacja w klasie "BossaApi" - używanej też wewnętrznie przez główną klasę biblioteki: "Bossa".
+        /// </summary>
+        public interface IBossaApi
 		{
 			bool Connected { get; }
 

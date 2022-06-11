@@ -1,10 +1,9 @@
-﻿using System;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	// typ prowizji
-	public enum OrdCommissionType
+    // typ prowizji
+    public enum OrdCommissionType
 	{
 		PerUnit = '1',  // na jednostkę
 		Percent = '2',  // procent

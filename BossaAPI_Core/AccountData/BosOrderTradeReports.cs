@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Collections;
+﻿using System.Collections;
 
 namespace BossaAPI_Core
 {
-	/// <summary>
-	/// Lista raportów z wykonania kolejnych transakcji dla naszego zlecenia.
-	/// </summary>
-	public class BosOrderTradeReports : IEnumerable<BosOrderTradeReport>
+    /// <summary>
+    /// Lista raportów z wykonania kolejnych transakcji dla naszego zlecenia.
+    /// </summary>
+    public class BosOrderTradeReports : IEnumerable<BosOrderTradeReport>
 	{
 		private List<BosOrderTradeReport> list = new List<BosOrderTradeReport>();
 

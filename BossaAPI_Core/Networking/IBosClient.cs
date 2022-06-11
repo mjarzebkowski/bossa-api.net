@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using BossaAPI_Core.DTO;
+﻿using BossaAPI_Core.DTO;
 
 namespace BossaAPI_Core
 {
-	public interface IBosClient : IDisposable
+    public interface IBosClient : IDisposable
 	{
 		/// <summary>
 		/// Zdarzenie informujące o aktualizacji danych rachunku.

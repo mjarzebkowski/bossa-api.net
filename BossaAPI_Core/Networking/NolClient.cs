@@ -1,24 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
+﻿using System.Diagnostics;
 using System.Net.Sockets;
-using System.Threading;
 using Microsoft.Win32;
 using BossaAPI_Core.Fixml;
 using BossaAPI_Core.DTO;
-using System.Reflection;
 
 namespace BossaAPI_Core
 {
-	/// <summary>
-	/// Klasa obsługująca połączenie z aplikacją NOL3 
-	/// - lokalna komunikacja z wykorzystaniem protokołu FIXML
-	/// - nawiązywanie połączenia, logowanie, wylogowanie
-	/// - odbiór komunikatów w kanale asynchronicznym
-	/// - zbieranie bieżących notowań podczas sesji
-	/// </summary>
-	public class NolClient : IDisposable, IBosClient
+    /// <summary>
+    /// Klasa obsługująca połączenie z aplikacją NOL3 
+    /// - lokalna komunikacja z wykorzystaniem protokołu FIXML
+    /// - nawiązywanie połączenia, logowanie, wylogowanie
+    /// - odbiór komunikatów w kanale asynchronicznym
+    /// - zbieranie bieżących notowań podczas sesji
+    /// </summary>
+    public class NolClient : IDisposable, IBosClient
 	{
 
 		#region Constructors

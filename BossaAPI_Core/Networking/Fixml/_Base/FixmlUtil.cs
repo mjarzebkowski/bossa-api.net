@@ -1,13 +1,12 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	/// <summary>
-	/// Wewnętrzne funkcje pomocnicze. Głównie do parsowania parametrów FIXML'a. 
-	/// </summary>
-	internal static class FixmlUtil
+    /// <summary>
+    /// Wewnętrzne funkcje pomocnicze. Głównie do parsowania parametrów FIXML'a. 
+    /// </summary>
+    internal static class FixmlUtil
 	{
 
 		internal static void Error(XmlElement xml, string name, object value, string msg)

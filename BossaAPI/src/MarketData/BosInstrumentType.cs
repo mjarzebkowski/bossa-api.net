@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace pjank.BossaAPI
+﻿namespace pjank.BossaAPI
 {
-	/// <summary>
-	/// Typ wyliczeniowy określający rodzaj instrumentu.
-	/// </summary>
-	public enum BosInstrumentType
+    /// <summary>
+    /// Typ wyliczeniowy określający rodzaj instrumentu.
+    /// </summary>
+    public enum BosInstrumentType
 	{
 		/// <summary>
 		/// Instrumenty pierwotne (zwykłe akcje).

@@ -1,10 +1,9 @@
-﻿using System;
-using System.Text;
+﻿using System.Text;
 using System.Xml;
 
 namespace pjank.BossaAPI.Fixml
 {
-	public class MarketDataRequestMsg : FixmlMsg
+    public class MarketDataRequestMsg : FixmlMsg
 	{
 
 		private static uint nextId = 0;

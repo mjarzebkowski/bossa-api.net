@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public enum TradingSessionPhase
+    public enum TradingSessionPhase
 	{
 		Unknown = 0,
 		PreTrading = 1,         // przed otwarciem

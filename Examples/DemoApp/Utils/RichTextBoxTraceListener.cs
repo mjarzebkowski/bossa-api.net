@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Diagnostics;
+﻿using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Drawing;
 
 namespace pjank.BossaAPI.DemoApp
 {
-	/// <summary>
-	/// Wersja GuiTraceListener'a przystosowana do RichTextBox'a (obsługuje kolorowanie wierszy).
-	/// </summary>
-	public class RichTextBoxTraceListener : TextBoxTraceListener
+    /// <summary>
+    /// Wersja GuiTraceListener'a przystosowana do RichTextBox'a (obsługuje kolorowanie wierszy).
+    /// </summary>
+    public class RichTextBoxTraceListener : TextBoxTraceListener
 	{
 		public RichTextBoxTraceListener(RichTextBox output) : base(output) { }
 

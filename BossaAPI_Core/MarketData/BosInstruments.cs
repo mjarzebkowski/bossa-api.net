@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections;
 using BossaAPI_Core.DTO;
-using System.Threading;
 using BossaAPI_Core.BossaAPI_Core;
 
 namespace BossaAPI_Core
 {
-	public class BosInstruments : IEnumerable<BosInstrument>
+    public class BosInstruments : IEnumerable<BosInstrument>
 	{
 		/// <summary>
 		/// Liczba dostępnych na liście instrumentów.

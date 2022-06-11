@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace pjank.BossaAPI
+﻿namespace pjank.BossaAPI
 {
-	/// <summary>
-	/// Przechowuje informacje "statystyczne" z bieżącej sesji dla konkretnego instrumentu. 
-	/// </summary>
-	public class BosSessionStats
+    /// <summary>
+    /// Przechowuje informacje "statystyczne" z bieżącej sesji dla konkretnego instrumentu. 
+    /// </summary>
+    public class BosSessionStats
 	{
 		/// <summary>
 		/// Cena otwarcia bieżącej sesji.

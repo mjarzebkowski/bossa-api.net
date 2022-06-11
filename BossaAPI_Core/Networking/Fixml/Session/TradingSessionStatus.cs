@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public enum TradingSessionStatus
+    public enum TradingSessionStatus
 	{
 		Unknown = 0,            // nieznany
 		Halted = 1,             // wstrzymany

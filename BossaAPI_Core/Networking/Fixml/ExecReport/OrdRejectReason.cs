@@ -1,9 +1,8 @@
-﻿using System;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public enum OrdRejectReason
+    public enum OrdRejectReason
 	{
 		/*
 		BrokerOption = 0,

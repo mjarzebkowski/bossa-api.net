@@ -1,9 +1,8 @@
-﻿using System;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public enum TrdSesStatRejectReason
+    public enum TrdSesStatRejectReason
 	{
 		None = 0,
 		InvalidSessionId = 1,

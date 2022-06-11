@@ -1,10 +1,9 @@
-﻿using System;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	// określa powód dostarczenia danego raportu
-	public enum ExecReportType
+    // określa powód dostarczenia danego raportu
+    public enum ExecReportType
 	{
 		New = '0',              // nowe zlecenie
 		Trade = 'F',            // wykonane (może być częściowo)

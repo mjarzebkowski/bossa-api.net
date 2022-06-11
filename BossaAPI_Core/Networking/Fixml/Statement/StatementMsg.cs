@@ -1,10 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public class StatementMsg : FixmlMsg
+    public class StatementMsg : FixmlMsg
 	{
 		public const string MsgName = "Statement";
 

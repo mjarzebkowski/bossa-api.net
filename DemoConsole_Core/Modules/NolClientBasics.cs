@@ -1,10 +1,8 @@
-﻿using System;
-using System.Threading;
-using BossaAPI_Core.Fixml;
+﻿using BossaAPI_Core.Fixml;
 
 namespace BossaAPI_Core.DemoConsole.Modules
 {
-	class NolClientBasics : IDemoModule
+    class NolClientBasics : IDemoModule
 	{
 		public char MenuKey { get { return '1'; } }
 		public string Description { get { return "NolClient basics, login/logout, sample message handler"; } }

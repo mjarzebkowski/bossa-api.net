@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace pjank.BossaAPI
 {
-	public class BosOffers : IEnumerable<BosOffer>
+    public class BosOffers : IEnumerable<BosOffer>
 	{
 		/// <summary>
 		/// Liczba widocznych w tabeli ofert kupna/sprzedaży danego instrumentu.

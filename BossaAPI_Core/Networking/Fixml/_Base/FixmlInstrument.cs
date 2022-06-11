@@ -1,16 +1,13 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	/// <summary>
-	/// Klasa opisujący konkretny papier wartościowy przekazywany w parametrach komunikatu FIXML.
-	/// Implementuje wewnętrznie słownik poznanych dotąd odwzorowań kodów ISIN na zwykłe symbole papierów.
-	/// </summary>
-	public class FixmlInstrument
+    /// <summary>
+    /// Klasa opisujący konkretny papier wartościowy przekazywany w parametrach komunikatu FIXML.
+    /// Implementuje wewnętrznie słownik poznanych dotąd odwzorowań kodów ISIN na zwykłe symbole papierów.
+    /// </summary>
+    public class FixmlInstrument
 	{
 		public string Symbol { get; private set; }
 		public string SecurityId { get; private set; }

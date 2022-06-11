@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace BossaAPI_Core
+﻿namespace BossaAPI_Core
 {
-	/// <summary>
-	/// Identyfikuje intrument (papier wartościowy), którego dotyczy jakaś oferta, zlecenie, transakcja.
-	/// </summary>
-	public class BosInstrument
+    /// <summary>
+    /// Identyfikuje intrument (papier wartościowy), którego dotyczy jakaś oferta, zlecenie, transakcja.
+    /// </summary>
+    public class BosInstrument
 	{
 		/// <summary>
 		/// Rodzaj instrumentu (akcje, kontrakty, indeks).

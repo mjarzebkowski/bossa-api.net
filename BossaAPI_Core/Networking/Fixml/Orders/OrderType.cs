@@ -1,9 +1,8 @@
-﻿using System;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public enum OrderType
+    public enum OrderType
 	{
 		PKC = '1',          // zlecenie "po każdej cenie"
 		Limit = 'L',        // zlecenie "z limitem ceny"

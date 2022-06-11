@@ -1,10 +1,8 @@
-﻿using System;
-using System.Linq;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public class MDEntry
+    public class MDEntry
 	{
 		public MDUpdateAction UpdateAction { get; private set; }
 		public MDEntryType EntryType { get; private set; }

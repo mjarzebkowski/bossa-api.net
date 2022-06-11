@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Diagnostics;
-using System.Threading;
 using pjank.BossaAPI.Fixml;
 
 namespace pjank.BossaAPI.DemoConsole.Modules
 {
-	class BosMarketDataEx : IDemoModule
+    class BosMarketDataEx : IDemoModule
 	{
 		public char MenuKey { get { return '8'; } }
 		public string Description { get { return "BossaAPI+NolClient, combined with low-level Fixml events"; } }

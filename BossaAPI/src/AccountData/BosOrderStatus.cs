@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace pjank.BossaAPI
+﻿namespace pjank.BossaAPI
 {
-	public enum BosOrderStatus
+    public enum BosOrderStatus
 	{
 		/// <summary>
 		/// Zlecenie w trakcie modyfikacji... a póki co jest (chyba?) wciąż aktywne.

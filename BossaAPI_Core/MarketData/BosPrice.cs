@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Globalization;
-
-namespace BossaAPI_Core
+﻿namespace BossaAPI_Core
 {
-	/// <summary>
-	/// Klasa reprezentująca cenę podaną w naszym zleceniu lub w arkuszu ofert
-	/// (tj. po prostu zwykła kwota *albo* wartość specjalna, jak: PKC, PCR, PCRO)
-	/// </summary>
-	public class BosPrice
+    /// <summary>
+    /// Klasa reprezentująca cenę podaną w naszym zleceniu lub w arkuszu ofert
+    /// (tj. po prostu zwykła kwota *albo* wartość specjalna, jak: PKC, PCR, PCRO)
+    /// </summary>
+    public class BosPrice
 	{
 		// pozwala łatwo przypisać do obiektu zwykłą liczbę
 		public static implicit operator BosPrice(decimal price)

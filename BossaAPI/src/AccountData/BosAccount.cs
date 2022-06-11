@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace pjank.BossaAPI
 {
-	/// <summary>
-	/// Konkretny rachunek danego użytkownika BOSSy (np. akcyjny lub kontraktowy)
-	/// </summary>
-	public class BosAccount
+    /// <summary>
+    /// Konkretny rachunek danego użytkownika BOSSy (np. akcyjny lub kontraktowy)
+    /// </summary>
+    public class BosAccount
 	{
 		/// <summary>
 		/// Numer rachunku.

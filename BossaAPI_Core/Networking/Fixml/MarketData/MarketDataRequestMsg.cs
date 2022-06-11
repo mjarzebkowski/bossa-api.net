@@ -1,10 +1,9 @@
-﻿using System;
-using System.Text;
+﻿using System.Text;
 using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public class MarketDataRequestMsg : FixmlMsg
+    public class MarketDataRequestMsg : FixmlMsg
 	{
 
 		private static uint nextId = 0;

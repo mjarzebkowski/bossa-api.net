@@ -1,11 +1,9 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Text;
 using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public class StatementData
+    public class StatementData
 	{
 		public class PosQuantity
 		{

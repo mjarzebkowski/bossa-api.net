@@ -1,20 +1,19 @@
 ﻿using System;
-using pjank.BossaAPI;
 
 namespace pjank.BossaAPI.MarketMonitor
 {
-	/// <summary>
-	/// 
-	/// Poniżej najprostszy przykład odbioru bieżących notowań za pośrednictwem tej biblioteki.
-	/// 
-	/// W tych kilku linijkach (nie licząc komentarzy ;)) mamy w pełni funkcjonalny program konsolowy,
-	/// wyświetlający bieżące notowania dowolnych instrumentów (podanych w argumentach wywołania programu).
-	/// 
-	/// Przykład użycia:
-	///  TestApp3.exe PKOBP PEKAO GETIN BRE BZWBK WIG20 FW20M12
-	///  
-	/// </summary>
-	class MarketMonitor
+    /// <summary>
+    /// 
+    /// Poniżej najprostszy przykład odbioru bieżących notowań za pośrednictwem tej biblioteki.
+    /// 
+    /// W tych kilku linijkach (nie licząc komentarzy ;)) mamy w pełni funkcjonalny program konsolowy,
+    /// wyświetlający bieżące notowania dowolnych instrumentów (podanych w argumentach wywołania programu).
+    /// 
+    /// Przykład użycia:
+    ///  TestApp3.exe PKOBP PEKAO GETIN BRE BZWBK WIG20 FW20M12
+    ///  
+    /// </summary>
+    class MarketMonitor
 	{
 		/// <summary>
 		/// Główna funkcja programu.

@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Diagnostics;
-using System.Threading;
+﻿using System.Diagnostics;
 
 namespace BossaAPI_Core.DemoConsole.Modules
 {
-	class BosAccountDataEx : IDemoModule
+    class BosAccountDataEx : IDemoModule
 	{
 		public char MenuKey { get { return '6'; } }
 		public string Description { get { return "BossaAPI basics, account info using OnUpdate event"; } }

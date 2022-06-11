@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace pjank.BossaAPI
 {
-	public class BosTrades : IEnumerable<BosTrade>
+    public class BosTrades : IEnumerable<BosTrade>
 	{
 		/// <summary>
 		/// Liczba dostępnych w historii transakcji dla tego instrumentu.

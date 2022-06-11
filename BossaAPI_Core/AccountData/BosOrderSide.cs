@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace BossaAPI_Core
+﻿namespace BossaAPI_Core
 {
-	public enum BosOrderSide
+    public enum BosOrderSide
 	{
 		Buy,
 		Sell,

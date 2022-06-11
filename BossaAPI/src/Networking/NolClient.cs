@@ -7,18 +7,17 @@ using System.Threading;
 using Microsoft.Win32;
 using pjank.BossaAPI.Fixml;
 using pjank.BossaAPI.DTO;
-using System.Reflection;
 
 namespace pjank.BossaAPI
 {
-	/// <summary>
-	/// Klasa obsługująca połączenie z aplikacją NOL3 
-	/// - lokalna komunikacja z wykorzystaniem protokołu FIXML
-	/// - nawiązywanie połączenia, logowanie, wylogowanie
-	/// - odbiór komunikatów w kanale asynchronicznym
-	/// - zbieranie bieżących notowań podczas sesji
-	/// </summary>
-	public class NolClient : IDisposable, IBosClient
+    /// <summary>
+    /// Klasa obsługująca połączenie z aplikacją NOL3 
+    /// - lokalna komunikacja z wykorzystaniem protokołu FIXML
+    /// - nawiązywanie połączenia, logowanie, wylogowanie
+    /// - odbiór komunikatów w kanale asynchronicznym
+    /// - zbieranie bieżących notowań podczas sesji
+    /// </summary>
+    public class NolClient : IDisposable, IBosClient
 	{
 
 		#region Constructors

@@ -1,17 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Diagnostics;
 using System.IO;
 
 namespace pjank.BossaAPI.DemoConsole.Utils
 {
-	/// <summary>
-	/// Klasa przechwytuje wszystko wysyłane do Trace/Debug,
-	/// zapisując to jednocześnie w oknie konsoli i do pliku (zachowuje kilka ostatnich plików).
-	/// </summary>
-	public class ConsoleLog : IDisposable
+    /// <summary>
+    /// Klasa przechwytuje wszystko wysyłane do Trace/Debug,
+    /// zapisując to jednocześnie w oknie konsoli i do pliku (zachowuje kilka ostatnich plików).
+    /// </summary>
+    public class ConsoleLog : IDisposable
 	{
 		private readonly string filename;
 

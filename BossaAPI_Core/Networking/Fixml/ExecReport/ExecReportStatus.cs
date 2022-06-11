@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public enum ExecReportStatus
+    public enum ExecReportStatus
 	{
 		New,              // nowe
 		Expired,          // archiwalne

@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace pjank.BossaAPI.Fixml
+﻿namespace pjank.BossaAPI.Fixml
 {
-	public class TrdSesStatusRequestMsg : FixmlMsg
+    public class TrdSesStatusRequestMsg : FixmlMsg
 	{
 
 		private static uint nextId = 0;

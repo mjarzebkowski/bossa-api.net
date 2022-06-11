@@ -1,15 +1,14 @@
-﻿using System;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Net.Sockets;
 using System.Text;
 using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	/// <summary>
-	/// Klasa bazowa dla wszystkich (wysyłanych/odbieranych) komunikatów FIXML.
-	/// </summary>
-	public class FixmlMsg
+    /// <summary>
+    /// Klasa bazowa dla wszystkich (wysyłanych/odbieranych) komunikatów FIXML.
+    /// </summary>
+    public class FixmlMsg
 	{
 
 		public static string DebugRecvCategory = "fixml-recv";

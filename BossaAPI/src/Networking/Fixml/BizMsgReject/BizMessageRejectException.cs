@@ -1,9 +1,8 @@
-﻿using System;
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 
 namespace pjank.BossaAPI.Fixml
 {
-	public class BizMessageRejectException : FixmlErrorMsgException
+    public class BizMessageRejectException : FixmlErrorMsgException
 	{
 		public new BizMessageRejectMsg Msg { get { return msg as BizMessageRejectMsg; } }
 

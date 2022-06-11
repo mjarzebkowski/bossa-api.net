@@ -1,9 +1,8 @@
-﻿using System;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public enum MDRejectReason
+    public enum MDRejectReason
 	{
 		UnknownSymbol = '0',            // nieznany walor
 		DuplicateRequestId = '1',       // duplikat MDReqID

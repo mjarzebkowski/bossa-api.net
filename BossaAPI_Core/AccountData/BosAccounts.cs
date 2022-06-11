@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using System.Collections;
 using BossaAPI_Core.BossaAPI_Core;
 
 namespace BossaAPI_Core
 {
-	/// <summary>
-	/// Lista rachunków danego klienta.
-	/// </summary>
-	public class BosAccounts : IEnumerable<BosAccount>
+    /// <summary>
+    /// Lista rachunków danego klienta.
+    /// </summary>
+    public class BosAccounts : IEnumerable<BosAccount>
 	{
 		/// <summary>
 		/// Liczba dostępnych na tę chwilę rachunków.

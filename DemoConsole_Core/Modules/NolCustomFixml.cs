@@ -1,12 +1,10 @@
-﻿using System;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Net.Sockets;
-using System.Xml;
 using BossaAPI_Core.Fixml;
 
 namespace BossaAPI_Core.DemoConsole.Modules
 {
-	class NolCustomFixml : IDemoModule
+    class NolCustomFixml : IDemoModule
 	{
 		public char MenuKey { get { return '4'; } }
 		public string Description { get { return "NolClient usage, custom login and message handling"; } }

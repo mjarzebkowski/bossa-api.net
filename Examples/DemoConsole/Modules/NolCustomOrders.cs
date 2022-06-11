@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Diagnostics;
-using System.Net.Sockets;
 using System.Threading;
 using pjank.BossaAPI.Fixml;
 
 namespace pjank.BossaAPI.DemoConsole.Modules
 {
-	class NolCustomOrders : IDemoModule
+    class NolCustomOrders : IDemoModule
 	{
 		public char MenuKey { get { return '3'; } }
 		public string Description { get { return "NolClient usage, sending orders directly with Fixml classes"; } }

@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Collections;
 
 namespace pjank.BossaAPI
 {
-	/// <summary>
-	/// Lista bieżących zleceń na danym rachunku.
-	/// </summary>
-	public class BosOrders : IEnumerable<BosOrder>
+    /// <summary>
+    /// Lista bieżących zleceń na danym rachunku.
+    /// </summary>
+    public class BosOrders : IEnumerable<BosOrder>
 	{
 		/// <summary>
 		/// Rachunek, którego dotyczą te zlecenia.

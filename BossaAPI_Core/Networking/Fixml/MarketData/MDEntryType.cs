@@ -1,10 +1,8 @@
-﻿using System;
-using System.Linq;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public enum MDEntryType
+    public enum MDEntryType
 	{
 		Buy = '0',      // oferta kupna
 		Sell = '1',     // oferta sprzedaży

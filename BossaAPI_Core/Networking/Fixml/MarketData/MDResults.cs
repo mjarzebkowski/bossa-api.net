@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
+﻿using System.Collections.ObjectModel;
 using System.Text;
 
 namespace BossaAPI_Core.Fixml
 {
-	/// <summary>
-	/// Klasa używana na razie przy zbieraniu historii notowań w klasie NolClient.
-	/// Ostatecznie będzie prawdopodobnie zastąpiona przez src/MarketData/BosTrades.
-	/// </summary>
-	public class MDResults
+    /// <summary>
+    /// Klasa używana na razie przy zbieraniu historii notowań w klasie NolClient.
+    /// Ostatecznie będzie prawdopodobnie zastąpiona przez src/MarketData/BosTrades.
+    /// </summary>
+    public class MDResults
 	{
 		public class Trade
 		{

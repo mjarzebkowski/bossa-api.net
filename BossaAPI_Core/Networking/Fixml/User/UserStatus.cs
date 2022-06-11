@@ -1,9 +1,8 @@
-﻿using System;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public enum UserStatus
+    public enum UserStatus
 	{
 		LoggedIn = 1,
 		LoggedOut = 2,

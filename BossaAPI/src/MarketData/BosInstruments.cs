@@ -2,13 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using pjank.BossaAPI.DTO;
 using System.Threading;
 
 namespace pjank.BossaAPI
 {
-	public class BosInstruments : IEnumerable<BosInstrument>
+    public class BosInstruments : IEnumerable<BosInstrument>
 	{
 		/// <summary>
 		/// Liczba dostępnych na liście instrumentów.

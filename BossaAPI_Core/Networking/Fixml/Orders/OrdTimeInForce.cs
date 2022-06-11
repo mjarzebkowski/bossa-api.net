@@ -1,9 +1,8 @@
-﻿using System;
-using System.Xml;
+﻿using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public enum OrdTimeInForce
+    public enum OrdTimeInForce
 	{
 		Day = '0',      // ważne na dzień
 		WiA = '3',      // wykonaj i anuluj (ważne do 1. wykonania)

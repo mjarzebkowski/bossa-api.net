@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Text;
 using System.Diagnostics;
 using System.Xml;
 
 namespace BossaAPI_Core
 {
-	/// <summary>
-	/// Extension methods używane w projekcie, głównie przy debugowaniu. 
-	/// </summary>
-	public static class MyUtil
+    /// <summary>
+    /// Extension methods używane w projekcie, głównie przy debugowaniu. 
+    /// </summary>
+    public static class MyUtil
 	{
 
 		public static void PrintError(this Exception e)

@@ -1,12 +1,11 @@
-﻿using System;
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 
 namespace BossaAPI_Core.Fixml
 {
-	/// <summary>
-	/// Każdy błąd wywodzący się z tej biblioteki (zw. z komunikacją FIXML)
-	/// </summary>
-	public class FixmlException : Exception
+    /// <summary>
+    /// Każdy błąd wywodzący się z tej biblioteki (zw. z komunikacją FIXML)
+    /// </summary>
+    public class FixmlException : Exception
 	{
 		public FixmlException() { }
 		public FixmlException(string message) : base(message) { }

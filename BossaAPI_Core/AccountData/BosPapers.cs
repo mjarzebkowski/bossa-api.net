@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Collections;
+﻿using System.Collections;
 
 namespace BossaAPI_Core
 {
-	public class BosPapers : IEnumerable<BosPaper>
+    public class BosPapers : IEnumerable<BosPaper>
 	{
 		/// <summary>
 		/// Rachunek, na którym znajdują się te papiery.

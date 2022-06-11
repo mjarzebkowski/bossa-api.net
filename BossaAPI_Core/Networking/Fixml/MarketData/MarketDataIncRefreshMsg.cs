@@ -1,10 +1,9 @@
-﻿using System.Collections.Generic;
-using System.Text;
+﻿using System.Text;
 using System.Xml;
 
 namespace BossaAPI_Core.Fixml
 {
-	public class MarketDataIncRefreshMsg : FixmlMsg
+    public class MarketDataIncRefreshMsg : FixmlMsg
 	{
 		public const string MsgName = "MktDataInc";
 
